@@ -12,12 +12,12 @@ on:
             os:
                 type: string
                 description: "systeme d'exploitation"
-                default: Ubuntu_latest
+                default: 'Ubuntu_latest'
                 required: true
             surname:
                 type: string
-                description: OS description
-                default: Ubuntu_latest
+                description: 'OS description'
+                default: 'User desc'
                 required: true
   
 jobs: 
